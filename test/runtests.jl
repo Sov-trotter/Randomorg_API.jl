@@ -2,5 +2,5 @@ using Randomorg_API
 using Test
 
 @testset "Randomorg_API.jl" begin
-    # Write your own tests here.
+    generateIntegerSequences(2, 5, 10,false)
 end

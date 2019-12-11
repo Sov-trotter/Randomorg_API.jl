@@ -3,6 +3,10 @@ uuid = "0ac3c181-dae3-44a0-9b3c-c8a5f38b4c00"
 authors = ["Arsh Sharma"]
 version = "0.1.0"
 
+[deps]
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+
 [compat]
 julia = "1"
 

@@ -1,5 +1,5 @@
 module Randomorg_API
-
-greet() = print("Hello World!")
-
+using JSON, HTTP
+include("Random_numbers.jl")
+export generateIntegerSequences
 end # module
