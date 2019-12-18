@@ -69,7 +69,7 @@ using Randomorg_API
    * `significantDigits` The number of significant digits to use. Must be within the [2,14] range.  
    
 
-`generateStrings(n, length, characters)`
+`generateStrings(n, length, characters, replacement)`
 ---------------------------------------------
 ##### This method generates true random strings.
    * `n` How many random strings you need. Must be within the [1,10000] range.  
