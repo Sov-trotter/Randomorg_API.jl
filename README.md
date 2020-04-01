@@ -91,3 +91,16 @@ using Randomorg_API
    * `size` The size of each blob, measured in bits. Must be within the [1,1048576] range and must be divisible by 8. 
             The total size of all blobs requested must not exceed 1,048,576 bits (128 KiB). 
    * `format` Specifies the format in which the blobs will be returned. Values allowed are `base64` and `hex`. 
+   
+   ## SUPPORTING AND CITING:
+
+This software was developed as part of academic research. If you would like to help support it, please star the repository. If you use this software as part of your research, teaching, or other activities, we would be grateful if you could cite the following:
+
+```
+@misc{sharma2019randomorg_apijl,
+    title={{Randomorg_API.jl: A random.org client written in Julia}},
+    author={Arsh Sharma},
+    year={2019}
+}
+```
+
